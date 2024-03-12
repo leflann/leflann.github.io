@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
+
+body {
+  background-color: rgb(255, 245, 243);
+}
+
+.logo img {
+  display: flex;
+  width: 20%;
+  margin-left: 40%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(149, 108, 216);
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li {
+  margin: 10px;
+}
+
+.imagenes {
+  max-height: 200vh;
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  }
+
+.contenedor h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-left: 30%;
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(121, 74, 110);
+}
+
+.contenedor p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(121, 74, 110);
+  padding: 40px;
+  width: 40%;
+  margin-left: 30%;
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contenedor img {
+  display: flex;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.contacto p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    color: rgb(121, 74, 110);
+    padding: 40px;
+    width: 70%;
+    margin-left: 15%;
+    font-family: "Belleza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .contacto img {
+    display: flex;
+    width: 50%;
+    margin-left: 15%;
+  }
+
+
+
+
+.contenedorredes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .contenedorredes img{
+    height: 100px;
+  }
+  
+  .contenedorredes li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+
+  }
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.presentacion img {
+  height: 100%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+#sobremi {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.yo img {
+  display: flex;
+  width: 30%;
+  margin-left: 2%;
+}
+
+.yo p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(121, 74, 110);
+  padding: 40px;
+  width: 70%;
+  margin-left: 15%;
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sobremifoto img {
+  display: flex;
+  border-radius: 5%;
+}
+
+.video iframe {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin-left: 15%;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 20px;
+  color: rgb(121, 74, 110);
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
